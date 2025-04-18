@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body background="img/fondo1.jpg">
+    <!--Diseñar una página web, utilizando formularios y controles mostrados y explicados en HTML-->
+    
+
+    <h2 align="center">Formulario </h2>
+    <!--form = se utiliza para crear formularios-->
+    <form action="Enviar" method="Post">
+
+        <!--Nombre-->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+
+        <!--Apellidos-->
+        <label for="nombre">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tus apellidos" required><br><br>
+
+        
+        <!--Fecha de Nacimiento-->
+        <label >Fecha de Nacimiento:</label> <br>
+        <input type="date" id="nacimiento" name="nacimiento"><br><br><br>
+
+        <!--Genero-->
+        <label >Genero:</label><br>
+        <input type="radio" name="genero" value="masculino">Masculino
+        <input type="radio" name="genero" value="femenino">Femenino<br><br><br>
+
+        <!--Correo-->
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Escribe tu correo" required><br><br><br>
+
+        <!--Numero de Telefono-->
+        <label for="Telefono">Ingrese su número de Telefono: </label><br>
+        <input type="tel" name="Telefono" placeholder="123-456-789"><br><br><br>
+
+
+        <!--Elige Departamento-->
+        <label for="departamento">Seleccione su Departamento</label>
+        <select id="Departamento" name="Departamento">
+            <option value="">Buscar..</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Ancash">Ancash</option>
+            <option value="Apurimac">Apurimac</option>
+            <option value="Arequipa">Arequipa</option>
+            <option value="Ayacucho">Ayacucho</option>
+            <option value="Cajamarca">Cajamarca</option>
+            <option value="Cusco">Cusco</option>
+            <option value="Huancavelica">Huancavelica</option>
+            <option value="Huánuco">Huánuco</option>
+            <option value="Ica">Ica</option>
+            <option value="Junín">Junín</option>
+            <option value="La Libertad">La Libertad</option>
+            <option value="Lambayeque">Lambayeque</option>
+            <option value="Lima">Lima</option>
+            <option value="Loreto">Loreto</option>
+            <option value="Madre de Dios">Madre de Dios</option>
+            <option value="Moquegua">Moquegua</option>
+            <option value="Pasco">Pasco</option>
+            <option value="Piura">Piura</option>
+            <option value="Puno">Puno</option>
+            <option value="San Martín">San Martín</option>
+            <option value="Tacna">Tacna</option>
+            <option value="Tumbes">Tumbes</option>
+            <option value="Ucayali">Ucayali</option>
+        </select><br><br><br>
+
+
+        <h3>Seleccione los cursos de su interés</h3>
+        <!--Cursos-->
+        <label >Cursos disponibles:</label> <br>
+        <input type="checkbox" name="curso" value="FrontEnd">FrontEnd <br>
+        <input type="checkbox" name="curso" value="Backend">Backend <br>
+        <input type="checkbox" name="curso" value="Desarrollo Mobile">Desarrollo Mobile <br>
+        <input type="checkbox" name="curso" value="Machine Learning">Machine Learning <br>
+        <input type="checkbox" name="curso" value="Ciberseguridad">Ciberseguridad <br><br><br>
+
+
+        <!--Botones-->
+        <input type="submit" value="Enviar Informacion">
+        <input type="reset" value="Limpiar Formulario"><br><br>
+
+    
+</body>
+</html>
